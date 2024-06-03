@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #amazonResult, #bestBuyResult {
+            margin-top: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .description {
+            font-size: 14px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Results</h1>
+
+        <div id="amazonResult">
+            <h2>Amazon</h2>
+            <p><strong>Title:</strong> {{ amazon.title }}</p>
+            <p class="description"><strong>Description:</strong> {{ amazon.description }}</p>
+            <p><strong>Price:</strong> {{ amazon.price }}</p>
+            <a href="{{ amazon.link }}" target="_blank">Link</a>
+        </div>
+
+        <div id="bestBuyResult">
+            <h2>Best Buy</h2>
+            <p><strong>Title:</strong> {{ best_buy.title }}</p>
+            <p><strong>Price:</strong> {{ best_buy.price }}</p>
+            <a href="{{ best_buy.link }}" target="_blank">Link</a>
+        </div>
+    </div>
+</body>
+</html>

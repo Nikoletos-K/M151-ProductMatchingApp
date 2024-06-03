@@ -1,0 +1,3 @@
+nohup: ignoring input
+Running: nohup python -u scraper.py --search "samsung monitor" --max 1000 --amazon > ./logs/samsung_monitor_amazon.log 2>&1 &
+Running: nohup python -u scraper.py --search "samsung monitor" --max 1000 --bestbuy > ./logs/samsung_monitor_bestbuy.log 2>&1 &
