@@ -107,4 +107,12 @@ To deploy the Product Matching App, follow these steps:
    python to_sql.py
    python api_call.py
    ```
+   
+# API examles
+
+<div align="center">
+    <img  align="center" src="https://github.com/user-attachments/assets/d64bd458-2be4-4c7a-8607-9ffd5dc5128d" alt="photo3" width="300">
+    <img align="center" src="https://github.com/user-attachments/assets/26a4edc8-7e4c-4cfd-94c4-a761586d4035" alt="photo4" width="300">
+    <img align="center" src="https://github.com/user-attachments/assets/fd548efb-5680-405b-80e2-a4b7b6c803ce" alt="photo5" width="300">
+</div>
 
